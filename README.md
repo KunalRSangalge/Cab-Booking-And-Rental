@@ -53,9 +53,59 @@ Key highlights:
 
 ---
 
+## 📂 Project Structure
+```
+Cab-Booking-System/
+│── src/                  # Source code files
+│── data/                 # CSV files for Users, Drivers, Locations, Vehicles, History
+│── README.md             # Project documentation
+│── report.pdf            # Work Report (Detailed project documentation)
+```
+
+---
 
 ## 🚀 How to Run
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/KunalRSangalge/Cab-Booking-And-Rental
+```
+
+2. **Compile the code**
+```bash
+g++ main.cpp -o cab_booking
+```
+
+3. **Run the program**
+```bash
+./cab_booking
+```
+
+---
+
+## 📊 OOP Concepts Used
+- **Encapsulation** → Classes for Users, Drivers, Bookings, Rentals  
+- **Abstraction** → Simplified CLI while hiding internal complexity  
+- **Inheritance** → Vehicle hierarchy (Motorcycle, Hatchback, Sedan, SUV)  
+- **Polymorphism** → Price calculation for different cab types  
+- **Templates** → Generic input validation functions  
+- **Exception Handling** → Custom exceptions for input, authentication, ratings  
+- **Constructors & Destructors** → Safe object lifecycle management  
+
+---
+
+## 🧩 Future Improvements
+- Add GUI with **Qt** or Web-based frontend  
+- Use **MySQL database** instead of CSV files  
+- Implement **real-time GPS tracking**  
+- Add **payment gateway integration**  
+
+---
+
+## 👨‍💻 Team Members
+- **Bornil Gogoi** (2312176)  
+- **Kunal Rajesh Sangalge** (2312182)  
+
+---
+
+---
